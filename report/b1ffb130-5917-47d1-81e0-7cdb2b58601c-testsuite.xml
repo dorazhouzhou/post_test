@@ -1,0 +1,55 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1582705927476" stop="1582705993962">
+  <name>scripts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1582705927476" status="passed" stop="1582705993962">
+      <name>test_login.TestLogin.test_login[args0]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="97684-MainThread"/>
+        <label name="host" value="DESKTOP-GBFUB5P"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1582705942603" status="passed" stop="1582705945549">
+          <name>点击快递员登录按钮</name>
+          <title>点击快递员登录按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1582705948549" status="passed" stop="1582705950779">
+          <name>点击账号登录按钮</name>
+          <title>点击账号登录按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1582705950779" status="passed" stop="1582705955534">
+          <name>输入手机号码</name>
+          <title>输入手机号码</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1582705955534" status="passed" stop="1582705960752">
+          <name>输入密码</name>
+          <title>输入密码</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1582705960752" status="passed" stop="1582705961458">
+          <name>点击登录</name>
+          <title>点击登录</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1582705963458" status="passed" stop="1582705993962">
+          <name>判断当前页面是否有关键字【角色选择】,有则点击【快递员】</name>
+          <title>判断当前页面是否有关键字【角色选择】,有则点击【快递员】</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

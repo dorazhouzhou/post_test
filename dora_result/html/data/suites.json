@@ -1,0 +1,21 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "scripts",
+    "children" : [ {
+      "name" : "test_post.TestLogin.test_post[args0]",
+      "uid" : "d26a08d44f53a080",
+      "parentUid" : "af586ea5ffb1b57fad0f98a55a6d147c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582208123904,
+        "stop" : 1582208180083,
+        "duration" : 56179
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "af586ea5ffb1b57fad0f98a55a6d147c"
+  } ]
+}

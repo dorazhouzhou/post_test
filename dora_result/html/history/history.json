@@ -1,0 +1,22 @@
+{
+  "e19a8c57480670abec850893196c0668" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d26a08d44f53a080",
+      "status" : "failed",
+      "statusDetails" : "TypeError: 'tuple' object is not callable",
+      "time" : {
+        "start" : 1582208123904,
+        "stop" : 1582208180083,
+        "duration" : 56179
+      }
+    } ]
+  }
+}

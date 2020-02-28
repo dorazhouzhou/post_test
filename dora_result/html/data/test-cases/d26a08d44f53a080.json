@@ -1,0 +1,213 @@
+{
+  "uid" : "d26a08d44f53a080",
+  "name" : "test_post.TestLogin.test_post[args0]",
+  "fullName" : "scripts.test_post.TestLogin.test_post[args0]",
+  "historyId" : "e19a8c57480670abec850893196c0668",
+  "time" : {
+    "start" : 1582208123904,
+    "stop" : 1582208180083,
+    "duration" : 56179
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: 'tuple' object is not callable",
+  "statusTrace" : "self = <scripts.test_post.TestLogin object at 0x00000265FD8CE668>\nargs = {'express_id': '776201234567890', 'phone': '18576745772', 'pwd': 'n123456', 'rcp_phone': '15007150040', ...}\n\n    @pytest.mark.parametrize(\"args\", analyze_file(\"exp_id_data.yaml\", \"test_post\")) # 此处是引用了参数化，调用data数据\n    def test_post(self,args):\n    \n        phone_num = args[\"phone\"]\n        pwd = args[\"pwd\"]\n        express_id = args[\"express_id\"]\n        rcp_phone = args[\"rcp_phone\"]\n        rcp_phone_confirm = args[\"rcp_phone_confirm\"]\n    \n        # toast = args[\"toast\"]\n    \n        # 进入首页\n        # 1.快递员登录\n        self.page.home.click_courier_login_btn()\n        time.sleep(3)\n        # 点击账号登录\n        self.page.login.click_acc_login_btn()\n        # 输入手机号\n        self.page.login_info.input_phone(phone_num)\n        # 输入密码\n        self.page.login_info.input_pwd(pwd)\n        # 点击登录\n        self.page.login_info.click_login_btn()\n        time.sleep(2)\n    \n        # 2.快递员派件\n        #点击派件按钮\n        self.page.cour_menu.click_post_btn()\n        #选择格口\n        self.page.post_choose_position.click_room_position_btn()\n        #请输入快递运单号\n        self.page.post_scan_exp_id.post_input_exp_id(express_id)\n        time.sleep(3)\n        #点击完成\n        self.page.post_scan_exp_id.click_finish_btn()\n        time.sleep(5)\n        #输入收件人手机号\n>       self.page.post_input_phone.input_rcp_phone()\nE       TypeError: 'tuple' object is not callable\n\nscripts\\test_post.py:55: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TypeError: 'tuple' object is not callable",
+    "statusTrace" : "self = <scripts.test_post.TestLogin object at 0x00000265FD8CE668>\nargs = {'express_id': '776201234567890', 'phone': '18576745772', 'pwd': 'n123456', 'rcp_phone': '15007150040', ...}\n\n    @pytest.mark.parametrize(\"args\", analyze_file(\"exp_id_data.yaml\", \"test_post\")) # 此处是引用了参数化，调用data数据\n    def test_post(self,args):\n    \n        phone_num = args[\"phone\"]\n        pwd = args[\"pwd\"]\n        express_id = args[\"express_id\"]\n        rcp_phone = args[\"rcp_phone\"]\n        rcp_phone_confirm = args[\"rcp_phone_confirm\"]\n    \n        # toast = args[\"toast\"]\n    \n        # 进入首页\n        # 1.快递员登录\n        self.page.home.click_courier_login_btn()\n        time.sleep(3)\n        # 点击账号登录\n        self.page.login.click_acc_login_btn()\n        # 输入手机号\n        self.page.login_info.input_phone(phone_num)\n        # 输入密码\n        self.page.login_info.input_pwd(pwd)\n        # 点击登录\n        self.page.login_info.click_login_btn()\n        time.sleep(2)\n    \n        # 2.快递员派件\n        #点击派件按钮\n        self.page.cour_menu.click_post_btn()\n        #选择格口\n        self.page.post_choose_position.click_room_position_btn()\n        #请输入快递运单号\n        self.page.post_scan_exp_id.post_input_exp_id(express_id)\n        time.sleep(3)\n        #点击完成\n        self.page.post_scan_exp_id.click_finish_btn()\n        time.sleep(5)\n        #输入收件人手机号\n>       self.page.post_input_phone.input_rcp_phone()\nE       TypeError: 'tuple' object is not callable\n\nscripts\\test_post.py:55: TypeError",
+    "steps" : [ {
+      "name" : "点击快递员登录按钮",
+      "time" : {
+        "start" : 1582208140600,
+        "stop" : 1582208143663,
+        "duration" : 3063
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击账号登录按钮",
+      "time" : {
+        "start" : 1582208146663,
+        "stop" : 1582208148976,
+        "duration" : 2313
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入手机号码",
+      "time" : {
+        "start" : 1582208148976,
+        "stop" : 1582208154312,
+        "duration" : 5336
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1582208154312,
+        "stop" : 1582208160679,
+        "duration" : 6367
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1582208160679,
+        "stop" : 1582208161510,
+        "duration" : 831
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击派件按钮",
+      "time" : {
+        "start" : 1582208163511,
+        "stop" : 1582208163934,
+        "duration" : 423
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择格口",
+      "time" : {
+        "start" : 1582208163934,
+        "stop" : 1582208166309,
+        "duration" : 2375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "请输入快递运单号",
+      "time" : {
+        "start" : 1582208166309,
+        "stop" : 1582208171791,
+        "duration" : 5482
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "完成",
+      "time" : {
+        "start" : 1582208174792,
+        "stop" : 1582208175051,
+        "duration" : 259
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GBFUB5P"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "80492-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "scripts"
+  }, {
+    "name" : "testClass",
+    "value" : "scripts"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_post.TestLogin.test_post[args0]"
+  }, {
+    "name" : "package",
+    "value" : "scripts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d26a08d44f53a080.json",
+  "parameterValues" : [ ]
+}

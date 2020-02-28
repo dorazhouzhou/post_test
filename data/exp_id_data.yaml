@@ -1,0 +1,42 @@
+test_post:
+  #中通快递:100+9位数
+#  test_express_id001:
+#     express_id: "100123456789"
+#     phone: "13599999997"
+#     pwd: "n123456"
+#     rcp_phone : "15007150040"
+#     rcp_phone_confirm : "15007150040"
+
+
+#  #顺丰快递：通过生成单号连接生成
+#  test_express_id002:
+#     express_id: "**********"
+#     phone: "13418623323"
+#     pwd: "n123456"
+#     rcp_phone : "15007150040"
+#     rcp_phone_confirm : "15007150040"
+
+#
+#  #圆通快递：单号不效验
+#  test_express_id003:
+#     express_id: "1234567890"
+#     phone: "15899999996"
+#     pwd: "n123456"
+#     rcp_phone : "15007150040"
+#     rcp_phone_confirm : "15007150040"
+#
+  #申通快递:77620+10位数
+  test_express_id004:
+     express_id: "776201234567890"
+     phone: "18576745772"
+     pwd: "n123456"
+     rcp_phone : "15007150040"
+     rcp_phone_confirm : "15007150040"
+#
+#  #韵达快递：130+10位数
+#  test_express_id005:
+#     express_id: "1301234567890"
+#     phone: "13480788514"
+#     pwd: "n123456"
+#     rcp_phone : "15007150040"
+#     rcp_phone_confirm : "15007150040"

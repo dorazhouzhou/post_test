@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TypeError: 'tuple' object is not callable",
+      "children" : [ {
+        "name" : "test_post.TestLogin.test_post[args0]",
+        "uid" : "d26a08d44f53a080",
+        "parentUid" : "2201bfecdab37dd6575abcfc3807d39d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582208123904,
+          "stop" : 1582208180083,
+          "duration" : 56179
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2201bfecdab37dd6575abcfc3807d39d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

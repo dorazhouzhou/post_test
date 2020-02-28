@@ -1,0 +1,25 @@
+test_login:
+#  #中通快递
+#  test_login001:
+#    phone: "13599999997"
+#    pwd: "n123456"
+
+#  #顺丰快递
+#  test_login002:
+#    phone: "13418623323"
+#    pwd: "n123456"
+#
+#    #圆通快递
+#  test_login001:
+#    phone: "15899999996"
+#    pwd: "n123456"
+#
+#    #申通快递
+#  test_login001:
+#    phone: "18576745772"
+#    pwd: "n123456"
+#
+    #韵达快递
+  test_login001:
+    phone: "13480788514"
+    pwd: "n123456"
